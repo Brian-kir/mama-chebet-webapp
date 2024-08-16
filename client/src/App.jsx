@@ -1,7 +1,15 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from './pages/about';
+import Home from './pages/home';
+import Obituary from './pages/obituary';
 
 export default function App() {
-  return (
-    <h1 className='text-red-400'></h1>
-  )
-}
+  return <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home />} />
+    <Route path='/' element={<Obituary />} />
+    <Route path='/' element={<About />} />
+  </Routes>
+  </BrowserRouter>;
+   }
