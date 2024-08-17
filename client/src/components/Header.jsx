@@ -9,8 +9,7 @@ export default function Header() {
            <form>
         <h1 className='font-bold text-sm sm:text-xl flex flex-wrap '>
             <span className=' text-slate-500'>Mama</span>
-            <span className=' text-slate-700'>Chebet</span>
-            <span></span>
+            <span className=' text-slate-700'>Chebet</span>            
         </h1>
         </form> 
         <ul className='flex gap-4 '>
